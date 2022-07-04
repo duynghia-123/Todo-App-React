@@ -27,7 +27,7 @@ function App() {
 
   const onAddBtnClick = useCallback(
     (e) => {
-      // them text input vao danh sach todoList
+      // thêm text input vao danh sách todoList
       setTodoList([
         { id: v4(), name: textInput, isCompleted: false },
         ...todoList,
